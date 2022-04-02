@@ -1,0 +1,23 @@
+@media screen and (max-width: 1439px) {
+    
+    .section1_img, .section1_h1, .section1_p {
+        padding-left: 6vw;
+    }
+    .section1_h2, .section1_h3 {
+        padding-left: 10vw;
+    }
+    .section1_btn {
+        margin-left: 6vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .section1_h1 {
+        padding-top: 3vw;
+        width: 55vw;
+        height: auto;
+        word-break: keep-all;
+    }
+    .section1_btn {
+        margin-top: 8vw;
+    }
+}

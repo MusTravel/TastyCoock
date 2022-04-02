@@ -1,0 +1,79 @@
+@media screen and (max-width: 1439px)  {
+	.section3 {
+		width: 100%;
+		height: 50vw;
+	}
+	.section3_flex {
+	    justify-content: center;		
+	}
+	.section3_flex, .section3_box {
+		height: 30vw;
+	}
+	.section3_flex, .section3_box, .section3_p, .section3_box > p {
+		margin: 0;
+		padding: 0;
+	}
+	.section3_h1 {
+		padding: 0.5vw 0px 4vw 0px;
+	}
+	.section3_box {
+		width: 26vw;
+	}
+	.section3_box2 {
+		width: 32vw;
+		padding: 0 2vw;
+	}
+	.section3_box1 {
+		margin-top: 2vw;		
+	}
+	.section3_box3 {
+		margin-top: 0vw;
+	}
+	.section3_p, .section3_box > p { 
+		padding-top: 2vw;
+		padding-left: 2vw;
+		width: 21vw;
+		letter-spacing: 0pt;
+	    line-height: 1;
+		font-size: 1.5vw;
+	    word-break: keep-all;
+	}
+	.section3_box2 > p {
+		padding-left: 6.5vw;
+	}
+
+	.section3_ellipse, .section3_ellipse > img {
+		width: 18vw;
+		height: 18vw;
+	}
+	.section3_ellipse {
+		top: calc(600px + 179px + 33vw);
+	    left: calc(50vw - 35vw);
+
+	}
+	.section3_ellipse:before .section3_box1:hover ~ .section3_ellipse  {
+	    left: calc(50vw - 35vw);
+	}
+	.section3_box2:hover ~ .section3_ellipse  {
+	    left: calc(50vw - 5vw);
+	}
+	.section3_box3:hover ~ .section3_ellipse {
+	    left: calc(50vw + 25vw);
+	}
+
+}
+
+@media screen and (max-width: 1024px)  {
+	.section3_p, .section3_box > p { 
+		padding-top: 2vw;
+		width: 22vw;
+		font-size: 1.7vw;
+	}
+	.section3_h1 {
+		font-size: 4vw;
+		letter-spacing: 0.1pt;
+	}	
+	.section3_box2 > p {
+		padding-left: 5.5vw;
+	}	
+}

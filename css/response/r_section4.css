@@ -1,0 +1,18 @@
+@media screen and (max-width: 1439px)  {
+	.section4 {
+
+	}
+	.section4_h4_1 > br, .section4_h4_1 br:first-of-type {
+		display: none;
+	}
+	.section4_h4_1 {
+		margin: 0 auto;
+		width: 35vw;
+		height: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+
+	}
+
+}
