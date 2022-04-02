@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .section2 {
+        height: 220px;
+        width: 370px;
+        padding: 0;
+        padding-top: 50px;
+    }
+    .section2.flex {
+        width: 100%;
+    }
+    .section2_box {
+        margin-left: -43px;
+        padding-top: 2px;
+    }
+    .section2_box > p {
+        font-size: 6.545px;
+        padding: 21px 0 0 3px;
+        letter-spacing: -0.3pt;
+        width: 100px;
+    }
+
+    .section2_box4, .section2_box2, .section2_box3, .section2_box5 {
+        display: none;
+    }
+}
+
+

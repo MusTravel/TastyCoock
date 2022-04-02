@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    .section3 {
+        height: 463px;
+        width: 370px;
+        padding-top: 0;
+    }
+    .section3_flex {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section3_h1 {
+        padding: 0 30px;
+        font-size: 30px;
+        line-height: 1.2;
+        padding-top: 4px;
+    }
+    .section3_box {
+        width: 236px;
+        margin: 17px 0px 0px -5px;
+    }
+    .section3_box > p {
+    font-size: 18px;
+          line-height: 1.1;
+          padding: 17px 0 0 51px;
+    }
+
+    .section3_box2, .section3_box1, .section3_ellipse {
+        display: none;
+    }
+
+}
+
+    

@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+   .section5 {
+       height: 492px;
+       width: 370px;
+  }
+  .section5_box1, .section5_h1, .section5_box1_msg, .section5_box {
+    padding: 0 0 0 0;
+    width: 100%;
+  }   
+  .section5_h1 {
+      padding-top: 45px;
+  }
+  .section5_h1 > p {
+      font-size: 30px;
+  }
+
+  .section5_box1 {  
+      padding-top: 24px;
+      padding-left: 27px;
+  }
+
+  .section5_box1_msg > img {
+      width: 318px;
+      height: 160px;
+  }
+  .section5_box1_msg > p > br {
+    display: block;
+  }
+  .section5_box1_msg > p {
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0px;
+  }
+  .section5_box1_img p {
+    padding-left: 143px;
+    padding-top: 25px;
+  }
+  .section5_box1_img .p1 {
+    padding-left: 143px;
+    padding-top: 15px;
+    font-size: 5px;
+    line-height: 1.2;
+    letter-spacing: -0.15pt;
+    text-transform: lowercase;
+  }
+
+  .section5_box2, .section5_box3 {
+    display: none;
+    text-align: left;
+  }
+
+}

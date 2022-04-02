@@ -1,0 +1,93 @@
+.section1 {
+    text-align: left;
+    height: 600px;
+    background-image: url(../../Landing-assets/D_Screen_1_back.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #FFF;
+}
+.section1_img {
+	margin-left: -2px;
+	padding: 59px 0 0 122px;
+	width: 35px;
+	height: 49px;
+	float:  left;
+}
+.section1_h2 {
+ 	font-family: PF Handbook Pro;
+    font-weight: 400;
+	font-style: normal;
+ 	font-size: 29px;
+ 	margin: 0;
+ 	padding: 59px 0 0 164px;
+}
+.section1_h3 {
+ 	font-family: Circe ;
+    font-weight: normal;
+    font-style: normal;
+ 	font-size: 12px;
+ 	margin:  -2px 0 0 0 ;
+ 	padding: 0px 0 0 166px;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+
+}
+.section1_h1 {
+ 	font-family: Circe ;
+ 	font-style: bold;
+ 	font-size: 54px;
+ 	margin:  0;
+ 	text-transform: uppercase;
+    letter-spacing: 0.1pt;
+ 	line-height: 64px;
+ 	margin: 0 0 0 0px;
+ 	padding: 79px 0 0 122px;
+
+}
+.section1_p {
+ 	font-family: Circe ;
+    font-weight: 400;
+    font-style: normal;
+ 	font-size: 22px;
+ 	margin:  0;
+ 	padding: 13px 0 0 122px;
+ 	letter-spacing: 1px;
+}
+
+.section1_btn {
+    border: 0;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+    background-image: -webkit-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+    background-image: -ms-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+    width: 330px;
+    height: 90px;
+    margin-top: 35px;
+    margin-left: 120px;
+    padding-top: 5px;
+    -webkit-box-shadow: 0px 41px 40px -27px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 41px 40px -27px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 41px 40px -27px rgba(0, 0, 0, 0.44);
+    cursor: pointer;
+}
+.section1_btn:hover {
+   -webkit-box-shadow: 0px 5px 19px 11px rgba(34, 60, 80, 0.2) inset;
+   -moz-box-shadow: 0px 5px 19px 11px rgba(34, 60, 80, 0.2) inset;
+   box-shadow: 0px 5px 19px 11px rgba(34, 60, 80, 0.2) inset;
+}
+
+.section1_btn > span {
+    font-size: 14pt;
+    font-family: "Circe";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+    letter-spacing: 0.4pt;
+    text-align: center;
+    -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+    -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+    -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+}
+

@@ -1,0 +1,80 @@
+.section2 {
+    color: #FFF;
+    height: 179px;
+    padding: 0 0 0 0;
+    width: 100%;
+    padding-top: 59px;
+    text-align: center;
+}
+.section2_flex {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.section2_p {
+    font-size: 6.545px;
+    font-family: "Circe";
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    line-height: 1.2;
+    -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+    -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+    -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+    margin: 0 0 0 0 ;
+    padding: 23px 0 0 0;
+    letter-spacing: -0.3pt;
+}
+
+.section2_box1     {
+    padding-top: 1px;
+    padding-left: 181px;
+}
+.section2_box1 > p {
+    padding-top: 21px;
+    padding-left: 1px;
+}
+
+.section2_box2     {
+    padding-left: 116px;
+    padding-top: 1px;
+}
+.section2_box2 > p {
+    padding-top: 18px;
+    padding-left: 1px;
+}
+
+.section2_box3     {
+    padding-left: 157px;
+    padding-top: 1px;
+}
+.section2_box3 > p {
+    padding-top: 21px;
+    padding-left: 0px;
+}
+
+.section2_box4     {
+    padding-left: 183px;
+    padding-top: 1px;
+}
+.section2_box4 > p {
+    padding-top: 21px;
+    padding-left: 0px;
+}
+
+.section2_box5     {
+    padding-top: 1px;
+    padding-left: 138px;
+}
+.section2_box5 > p {
+    padding-top: 18px;
+    padding-left: 0px;
+}
+.section2_radio {
+    display: none;
+}
+
+.section2_box:hover img {
+    transition: transform .7s;
+    transform: scale(1.2);
+}
+

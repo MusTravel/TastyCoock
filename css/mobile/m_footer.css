@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  footer {  
+    width: 370px;
+    margin-top: -34px;
+  }
+}

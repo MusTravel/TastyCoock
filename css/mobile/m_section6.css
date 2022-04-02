@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+
+    .section6 {
+      text-align: left;
+      background: rgb(234, 127, 140) url(../../Landing-assets/m_Screen_6_back.png) no-repeat;
+      width: 370px;
+      height: 380px;
+   }
+
+    .section6_box1, .section6_box2, .section6_box2, .section6_btn_msg, .section6_box2_email {
+        margin: 0;
+    }
+    .section6_box1, .section6_box2 {
+        width: 100%;    
+    }
+   .section6_box1 {
+        text-align: left;
+    }
+   .section6_box1 > p > br {
+      display: none;
+   }
+    .section6_box1 > p {
+        word-wrap: break-word;
+        width: 340px;
+        font-size: 20px;
+        letter-spacing : 0.2px;
+        line-height: 1.2;
+        margin-left: 20px;
+        padding-top: 38px;
+    }
+   
+    .section6_box2 {
+/*      margin-top: 85px;
+        padding-left: 10px;*/
+    }
+    .section6_box2 {
+        width: 330px;
+        text-align: center;
+
+    }
+    .section6_btn, .section6_btn_box, .section6_btn_msg, .section6_box2_email {
+        width: 100%;
+/*        margin-top: 50px;
+        padding-left: 0px;
+        margin-left: 150px;*/
+    }
+    .section6_btn_msg{
+        margin-bottom: -33px;
+        margin-top: -38px;
+        padding-top: 10px;
+    }
+    .section6_box2_email > input::placeholder {
+        padding-left: 25px;
+    }
+    .section6_box2_email {
+        width: 305px;
+    }
+    .section6_box2 > p {
+
+      padding-left: 0px;
+    }
+
+}

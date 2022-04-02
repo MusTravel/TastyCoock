@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+    .section1 {
+        background-image: url(../../Landing-assets/M_Screen_1_Back.png) ;
+        width: 370px;
+        text-align: center;
+    }
+    .section1_h3, .section1_h2 {
+        text-align: left;
+    }
+    .section1_img {
+        margin-left: 0px;
+        padding: 23px 0 0 19px;
+        width: 35px;
+        height: 49px;
+        float:  left;
+    }
+    .section1_h2 {
+        padding: 23px 0 0 63px;
+    }
+    .section1_h3 {
+        margin-top:  -2px;
+        padding: 0px 0 0 64px;
+    }
+    .section1_h1 {
+        width: 100%;
+        padding: 29px 2px 0 0;
+        font-size: 12.272px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.185;
+        text-align: center;
+        letter-spacing: 0.2pt;
+    }
+
+    .section1_p {
+        font-size: 22px;
+        margin:  0;
+        padding: 36px 3px 0 0px;
+        letter-spacing: 0.05pt;
+        white-space: nowrap;
+        font-size: 8px;
+        line-height: 1.2;
+    }
+    .section1_h1, .section1_p {
+        -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+        -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+        -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+
+    }
+    .section1_btn {
+        margin-top: 284px;
+        margin-left: 0;
+        background-image: -moz-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+        background-image: -webkit-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+        background-image: -ms-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+        width: 330px;
+        height: 90px;
+    }
+
+}
+
