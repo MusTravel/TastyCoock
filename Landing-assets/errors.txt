@@ -1,0 +1,2 @@
+[2022-4-2 14:44:40] layer "© 2014–2018 TastyCookery.com": Unsupported extension: com
+[2022-4-2 14:44:40] layer "© 2014–2018 TastyCookery.com копия": Expected end of input but "\u043A" found.
