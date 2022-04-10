@@ -6,13 +6,34 @@
 		display: none;
 	}
 	.section4_h4_1 {
+		width: 80%;
 		margin: 0 auto;
-		width: 35vw;
+		padding-top: 4vw;
+		width: 70vw;
 		height: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-
+	    -moz-hyphens: auto;
+	    -webkit-hyphens: auto;
+	    -ms-hyphens: auto;
 	}
 
 }
+@media screen and (max-width: 1280px)  {
+	.section4_btn {
+		width: 33vw;
+	}
+	.section4_btn > span {
+		font-size: 19px;
+	}
+	.section4_btn > span > strong {
+		font-size: 21px;
+	}
+}
+@media screen and (max-width: 1024px)  {
+	.section4_btn {
+		width: 340px;
+	}
+	.section4_h4_1 {
+		width: 85%;
+	}
+}
+

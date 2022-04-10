@@ -7,17 +7,26 @@
         margin-right: 5vw;
     }    
     .section6_box2 {
-
         padding: 0;
     }    
     .section6_box1 > p {
-        width: 100%;
+        width: 35vw;
+    }
+    .section6_box1 > p > br {
+        display: none;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
+    .section6 {
+        flex-direction: row;        
+    }
+    
     .section6_box1, .section6_box2 {
         margin-top: 8vw;
+    }
+    .section6_h1 > p > br {
+        display: none;
     }
     .section6_btn_msg {
         margin-top: -5vw;
@@ -30,57 +39,49 @@
         margin-left: 10vw;
     }    
     .section6_popup {
-        width: 60vw;
+        width: 50vw;
         height: 10vw;
     }
 
 }
 @media screen and (max-width: 1024px) {
     .section6 {
-        justify-content: center;        
-        height: calc(20vw + 35px + 20vw );
-        flex-wrap: wrap;
-        text-align: center;
-        padding-bottom: 13vw;
+        height: 50vw;
     }
+     .section6 > *, .section6_box1 > p {
+        padding: 0;
+        margin: 0;
+     }
     .section6_box1, .section6_box2 {
-        height: auto;
-        margin: 0 10vw;
+        margin: 9vw auto 0 auto;
     }
-    .section6_box1 {
-        margin-top: 4vw;
-        margin-bottom: 2vw;
-    }
-    .section6_box1 > p {
-        font-size: 2.5vw;
+    .section6_box1, .section6_box2, .section6_btn, .section6_box2_email, .section6_box2 > p, .section6_btn_msg  {
+        width: 40vw;
     }
     .section6_btn_msg {
-        margin-left: 15px;
+        height: 50px;
+        margin-top: -65px;
     }
-
-}
-@media screen and (max-width: 800px) {
-    .section6 {
-        height: calc(20vw + 90px + 20vw );
-        flex-wrap: wrap;
-        text-align: center;
-        padding-bottom: 20vw;
-    }
-    .section6_box1, .section6_box2 {
-        height: auto;
-        margin-top: 0vw;
+    .section6_box2_email {
+        margin-top: 35px;
+        width: calc(40vw - 25px);
     }
     .section6_box1 {
-        margin-top: 4vw;
-        margin-bottom: 4vw;
+        margin-bottom: 1vw;
+    }
+    .section6_box2 {
+
     }
     .section6_box1 > p {
-        font-size: 2.8vw;
-        letter-spacing: -0.2px;
+        font-size: 2.6vw;
     }
-    .section6_popup {
-        width: 80vw;
-        height: auto;
+    .section6_box2 > p {
+        font-size: 1.6vw;
     }
+    .section6_box1 > p, .section6_box2 > p {
+        padding-left: 2vw;
+    }        
+
+
 
 }

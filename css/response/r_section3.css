@@ -4,7 +4,8 @@
 		height: 50vw;
 	}
 	.section3_flex {
-	    justify-content: center;		
+	    justify-content: center;
+	    align-items: baseline;		
 	}
 	.section3_flex, .section3_box {
 		height: 30vw;
@@ -43,6 +44,7 @@
 	}
 
 	.section3_ellipse, .section3_ellipse > img {
+		display: block;
 		width: 18vw;
 		height: 18vw;
 	}
@@ -60,20 +62,61 @@
 	.section3_box3:hover ~ .section3_ellipse {
 	    left: calc(50vw + 25vw);
 	}
+	.section3_radiobox {  
+		display: none;	    
+	}
 
 }
 
-@media screen and (max-width: 1024px)  {
-	.section3_p, .section3_box > p { 
-		padding-top: 2vw;
-		width: 22vw;
-		font-size: 1.7vw;
+@media screen and (max-width: 1023px)  {
+	.section3 {
+		height: 600px;
+		text-align: center;
 	}
 	.section3_h1 {
 		font-size: 4vw;
 		letter-spacing: 0.1pt;
 	}	
-	.section3_box2 > p {
-		padding-left: 5.5vw;
-	}	
+    .section3_flex {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+    }
+    .section3_radiobox {
+    	margin: -20px auto 0 auto;
+    	height: 50px;
+    }
+	.section3_radio {
+	 	background: rgb(234, 234, 234);
+		cursor: pointer;
+	}
+
+    .section3_box {
+        width: 400px;
+		margin: 0 auto;
+		display: none;	    
+		transition: opacity 700ms;
+	    opacity: 0;
+	    text-align: center;
+
+    }
+  	.section3_box1, .section3_radiobox {  
+		display: block;	    
+	}
+  	.section3_box1 {  
+		opacity: 1;
+	}
+
+	.section3_p, .section3_box > p {
+    	font-size: 18px;
+    	width: 290px;
+        line-height: 1.1;
+        padding: 0;
+        padding-top: 5px;
+        margin: 0 auto;
+    }
+
+	.section3_ellipse {
+        display: none;
+    }
 }
