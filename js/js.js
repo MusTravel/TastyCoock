@@ -42,7 +42,7 @@ function slider(a) {
 			tempBox = [1, 2, 3, 4, 5, 1, 2], 
 			i ;
 	const 	box_1 = document.getElementsByClassName(sectionClass),
-			screenWidth = window.screen.innerWidth;	
+			screenWidth = window.innerWidth;	
 	sectionClass = a.classList[0].replace("radio", "box");
 	for (i=1; i<=box_1.length; i++) {
 		if (label == i) {
