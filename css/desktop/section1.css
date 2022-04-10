@@ -23,7 +23,6 @@
  	padding: 59px 0 0 164px;
 }
 .section1_h3 {
- 	font-family: Circe ;
     font-weight: normal;
     font-style: normal;
  	font-size: 12px;
@@ -34,7 +33,6 @@
 
 }
 .section1_h1 {
- 	font-family: Circe ;
  	font-style: bold;
  	font-size: 54px;
  	margin:  0;
@@ -46,7 +44,6 @@
 
 }
 .section1_p {
- 	font-family: Circe ;
     font-weight: 400;
     font-style: normal;
  	font-size: 22px;
@@ -79,15 +76,11 @@
 
 .section1_btn > span {
     font-size: 14pt;
-    font-family: "Circe";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.3;
     letter-spacing: 0.4pt;
     text-align: center;
-    -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-    -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-    -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
 }
 

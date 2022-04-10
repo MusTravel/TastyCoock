@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+   font-family: "Circe";
 }
 html { 
     width: 100%;
@@ -10,6 +11,7 @@ body {
     width: 1440px;
     margin: 0 auto;
     scroll-behavior: smooth;
+/*    overflow-x:hidden;*/
 }
 * {
   scrollbar-color: transparent transparent; /* thumb and track color */
@@ -44,6 +46,7 @@ ol, li {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 
 @font-face {
     font-family: 'Circe';
@@ -117,53 +120,7 @@ ol, li {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-MediumItalic.eot');
-    src: local('PFHandbookPro-MediumItalic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-MediumItalic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-MediumItalic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
 
-@font-face {
-    font-family: 'PF Handbook Pro Extra';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThin.eot');
-    src: local('PFHandbookPro-ExtraThin'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThin.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThin.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThin.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro Extra';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThinItalic.eot');
-    src: local('PFHandbookPro-ExtraThinItalic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThinItalic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThinItalic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-ExtraThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-Italic.eot');
-    src: local('PFHandbookPro-Italic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Italic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Italic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'PF Handbook Pro';
@@ -179,18 +136,6 @@ ol, li {
 
 @font-face {
     font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-LightItalic.eot');
-    src: local('PFHandbookPro-LightItalic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-LightItalic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-LightItalic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro';
     src: url('../../fonts/PFHandbookPro/PFHandbookPro-Bold.eot');
     src: local('PFHandbookPro-Bold'),
         url('../../fonts/PFHandbookPro/PFHandbookPro-Bold.eot?#iefix') format('embedded-opentype'),
@@ -198,42 +143,6 @@ ol, li {
         url('../../fonts/PFHandbookPro/PFHandbookPro-Bold.woff') format('woff'),
         url('../../fonts/PFHandbookPro/PFHandbookPro-Bold.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-BlackItalic.eot');
-    src: local('PFHandbookPro-BlackItalic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BlackItalic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BlackItalic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-BoldItalic.eot');
-    src: local('PFHandbookPro-BoldItalic'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BoldItalic.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BoldItalic.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PF Handbook Pro';
-    src: url('../../fonts/PFHandbookPro/PFHandbookPro-Medium.eot');
-    src: local('PFHandbookPro-Medium'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Medium.woff2') format('woff2'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Medium.woff') format('woff'),
-        url('../../fonts/PFHandbookPro/PFHandbookPro-Medium.ttf') format('truetype');
-    font-weight: 500;
     font-style: normal;
 }
 

@@ -6,9 +6,6 @@
 }
 .section5_box_img p, .section5_box_img .p1 {
     color: #000;
-    -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-    -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-    -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
 }
 
 .section5_h1 {
@@ -17,7 +14,6 @@
 }
 .section5_h1 > p {
     font-size: 40px;
-    font-family: "Circe";
     color: rgb(36, 36, 36);
     font-weight: bold;
     text-transform: uppercase;
@@ -32,12 +28,14 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
-.section3_radio {
+.section5_radiobox {
     display: none;
   }
-
+.section5_box {
+    display: block;
+}
 .section5_box_msg {
-    position:relative;
+    position: relative;
     display: inline-block;
     left: 0;
     bottom: 0;
@@ -53,7 +51,7 @@
 }
 
 .section5_box_msg  img {
-    margin-bottom: 16px;
+/*    margin-bottom: 16px;*/
 }
 .section5_box_msg p {
     font-size: 14px;
@@ -66,6 +64,7 @@
     top: 0;
 }
 .section5_box1_msg > p {
+    width: 290px;
     padding: 22px 0 0 20px;
 }
 .section5_box2_msg > p {
@@ -74,7 +73,9 @@
 .section5_box3_msg > p {
     padding: 16px 0 0 20px;
 }
-
+.section5_box_img {
+    padding-top: 14px;
+}
 .section5_box_img > img {
     border-radius: 50%;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -82,22 +83,26 @@
 }
 
 .section5_box_img p {
-    font-size: 8px;
-    font-family: "Circe";
+    font-size: 20px;
     color: rgb(36, 36, 36);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
+    padding-top: 32px;
+    margin-left: 103px;
 }
 
 .section5_box_img .p1 {
-    font-size: 4px;
-    font-family: "Circe";
-      color: rgb(144, 144, 144);
+    font-size: 12px;
+    color: rgb(144, 144, 144);
     line-height: 1.2;
+    padding-top: 0px;
+    margin-left: 103px;
+    text-transform: lowercase;
+
 }
 
-.section5_box1_img p {
+/*.section5_box1_img p {
     padding: 24px 0 0 137px;
 }
   .section5_box1_img .p1 {
@@ -116,3 +121,4 @@
 .section5_box3_img .p1 {
     padding: 17px 0 0 137px;
 }
+*/

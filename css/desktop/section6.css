@@ -1,6 +1,6 @@
 .section6 {
     text-align: left;
-    background: rgb(234, 127, 140) url(../../Landing-assets/D_Screen_6_back.png) no-repeat;
+    background: rgb(234, 127, 140) url(../../Landing-assets/D_Screen_6_back.png) ;
     width: 100%;
     height: 577px;
     border-bottom: 1px solid #FFF;
@@ -17,8 +17,8 @@
 }
 .section6_box2 {
 	padding-left: 0px;
-  margin-left: 151px;
-  margin-top: 83px;
+  margin-left: 148px;
+  margin-top: 84px;
   width: 400px;
 }
 .section6_box2 > input {
@@ -26,17 +26,16 @@
 }
 .section6_box1 > p {
   font-size: 26px;
-  font-family: "Circe";
   color: rgb(255, 255, 255);
   line-height: 1.1;
   letter-spacing: -0.8px;
   text-align: left;
+  width: 440px;
 }
-
+/*Стили области ввода*/
 .section6_box2_email {
   border-radius: 10px;
   font-size: 16px;
-  font-family: "Circe";
   background-color: rgb(255, 255, 255);
   width: 345px;
   height: 60px;
@@ -46,10 +45,9 @@
 }
 .section6_box2 > input::placeholder {
   font-size: 16px;
-  font-family: "Circe";
   color: rgb(144, 144, 144);
 }
-
+/*Стили для кнопки*/
 .section6_btn {
   border-radius: 10px;
   border: 0px;
@@ -73,12 +71,22 @@
 }
 .section6_btn > span {
   font-size: 24px;
-  font-family: "Circe";
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.083;
 }
+/*Стили надписи блока 2*/
+
+.section6_box2  p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+/*Стили всплывающей подсказки*/
 .section6_btn_msg {
     width: 370px;
     height: 80px;
@@ -88,31 +96,20 @@
     opacity: 0;
     color: #FFF;
     text-align: center;
-    font-family: Circe;
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: -30px;
     padding-top: 15px;
     text-shadow: 3px 7px 4px rgba(224, 187, 173, 0.95);
 }
-.section6_btn:after ~ .section6_btn_box > .section6_btn_msg {
-    opacity: 0;
-}
-.section6_box2  p {
-  font-size: 15px;
-  font-family: "Circe";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  letter-spacing: -0.2px;
-  padding-left: 5px;
-  padding-top: 20px;
-}
 
+/*Стили окна уведомлений*/
 .section6_overlay {
   position: fixed;
+  width: 100%;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.5);
   transition: opacity 500ms;
@@ -135,22 +132,23 @@
   -moz-box-shadow: 0px 41px 40px -27px rgba(0, 0, 0, 0.44);
   box-shadow: 0px 41px 40px -27px rgba(0, 0, 0, 0.44);
   border-radius: 5px;
-  width: 30vw;
-  height: 3vw;
+  width: 35vw;
+  height: 8vw;
   position: relative;
   transition: all 5s ease-in-out;
   text-align: center;
   color: #FFF;
-  font-family: "Circe";
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.section6_popup > h2, .section6_popup > a {
+.section6_popup > h3, .section6_popup > a {
   color: #FFF;
   text-decoration: none;
-
+}
+.section6_popup > h3 {
+    margin-top: 5%;
 }
 .section6_popup .section6_close {
   position: absolute;
@@ -161,9 +159,7 @@
 .section6_popup .section6_close:hover {
   color: #06D85F;
 }
-
 .section6_message {
-  font-family: Circe;
   color: white;
   margin: 10px 0;
   background: rgba(0, 0, 0, 0.2);
