@@ -36,6 +36,9 @@
     .section2_box4, .section2_box2, .section2_box3, .section2_box5 {
         display: none;
     }
+    .section2_radio {
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 400px)  and (max-width: 575px) {
