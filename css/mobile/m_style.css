@@ -1,11 +1,10 @@
-@media screen and (max-width: 600px) {
-    html {
-        width: 600px;
+@media screen and (max-width: 767px) {
+    html > * {
+        margin: 0;
+        padding: 0;
     }
     body { 
-       width: 370px;
-       margin: 0;
-       padding: 0;
+       width: 100vw;
        margin: 0 auto;
     }
     .adapt {

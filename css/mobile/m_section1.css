@@ -1,7 +1,10 @@
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 767px) {
     .section1 {
         background-image: url(../../Landing-assets/M_Screen_1_Back.png) ;
-        width: 370px;
+        width: 100%;
+        height: calc(100vw + 230px);
         text-align: center;
     }
     .section1_h3, .section1_h2 {
@@ -9,53 +12,59 @@
     }
     .section1_img {
         margin-left: 0px;
-        padding: 23px 0 0 19px;
+        padding: 6.2vw 0 0 5.1vw;
         width: 35px;
         height: 49px;
         float:  left;
     }
     .section1_h2 {
-        padding: 23px 0 0 63px;
+        padding: 6.2vw 0 0 63px;
     }
     .section1_h3 {
-        margin-top:  -2px;
+        margin-top:  -0.5vw;
         padding: 0px 0 0 64px;
     }
     .section1_h1 {
         width: 100%;
-        padding: 29px 2px 0 0;
-        font-size: 12.272px;
+        padding: 27px 0 0 0;
+        font-size: 8vw;
         font-weight: bold;
         text-transform: uppercase;
-        line-height: 1.185;
-        text-align: center;
-        letter-spacing: 0.2pt;
+        line-height: 9.5vw;
+        letter-spacing: 0.2px;
+        margin-left: -2px;
     }
 
     .section1_p {
-        font-size: 22px;
+        width: 100vw;
+        font-size: 5vw;
         margin:  0;
-        padding: 36px 3px 0 0px;
-        letter-spacing: 0.05pt;
+        padding: 12px 0px 0 0px;
+        letter-spacing: 0.4px;
         white-space: nowrap;
-        font-size: 8px;
-        line-height: 1.2;
-    }
-    .section1_h1, .section1_p {
-        -moz-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-        -webkit-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
-        -ms-transform: matrix( 2.44467694477211,0,0,2.44467694477211,0,0);
+        margin-left: -4px;
 
     }
+    .section1_form {
+        margin: 68.1vw 5.45vw 0 5.45vw;
+        width: auto;
+    }
     .section1_btn {
-        margin-top: 284px;
-        margin-left: 0;
+        margin: 0;
+        width: 100%;
         background-image: -moz-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
         background-image: -webkit-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
         background-image: -ms-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
-        width: 330px;
         height: 90px;
     }
-
 }
 
+@media screen and (min-width: 479px) and (max-width: 767px) {
+    .section1_btn, .section1_form {
+        width: 427px;
+
+    }
+    .section1_form {
+        margin: 68.1vw auto 0 auto;
+    }
+}

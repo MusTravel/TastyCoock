@@ -1,24 +1,24 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
    .section4 {
-      height: 320px;
-      width: 368px;
+      height: 86.5vw;
+      width: calc(100% - 2px);
       text-align: center;   
    }
    .section4_backimg {
-      background-image: url("../../Landing-assets/m_Screen_4_back.png");
-      opacity: 0.8;
+      background-image: url("../../Landing-assets/m_Screen_4_back.png") center no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      width: 100%;
+
    }
    .section4_h4_1 {      
-      font-size: 7.363px;
-      letter-spacing: 0.1pt;
-      width: 135px;
-      padding-top: 47px;
+      font-size: 4.8vw;
+      letter-spacing: 0.1px;
+      width: 86.5vw;
+      padding-top: 15.4vw;
    }
-   .section4_h4_1 br:first-of-type {
-       display: none;
-   }
-   .section4_h4_1 br:last-of-type  {
-       display: block;
+   .section4_h4_1 > br, .section4_h4_1 br:first-of-type {
+      display: none;
    }
    .section4_btn {
       border: 0;
@@ -26,21 +26,50 @@
       background-image: -moz-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
       background-image: -webkit-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
       background-image: -ms-linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
-      width: 340px;
+      width: 91.8vw;
       height: 90px;
       color: #FFF;
       padding-top: 5px;
       margin-left: -2px;
-      margin-top: 99px;
+      margin-top: 10.27vw;
    }
    .section4_btn > span {
       padding: 2px;
-      font-size: 20px;
+      font-size: 5.4vw;
       line-height: 1.25;
       letter-spacing: 0.1px;
    }
    .section4_btn > span > strong {
-      font-size: 22px;
+      font-size: 5.94vw;
       letter-spacing: 0.3px;
    }
+}
+
+@media screen and (min-width: 371px)  and (max-width: 767px) {
+   .section4_btn {
+      width: 340px;
+   }
+   .section4_btn > span {
+      font-size: 20px;
+   }
+   .section4_btn > span > strong {
+      font-size: 22px;
+   }
+}
+@media screen and (min-width: 480px)  and (max-width: 767px) {
+   .section4 {
+      height: 420px;
+   }
+   .section4_h4_1 { 
+   padding-top: 60px;  
+      font-size: 24px;
+   }   
+   .section4_h4_1 > br {
+      display: none;
+   }
+   .section4_btn {
+      margin-top: 90px;
+   }
+
+
 }

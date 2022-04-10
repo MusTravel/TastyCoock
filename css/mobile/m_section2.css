@@ -1,22 +1,36 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .section2 {
-        height: 220px;
-        width: 370px;
-        padding: 0;
-        padding-top: 50px;
-    }
-    .section2.flex {
+        height: 59.4vw;
         width: 100%;
+        padding: 0;
+        padding-top: 13.5vw;
+    }
+    .section2_flex {
+        width: 98%;
+        height: 40vw;
+        justify-content: center;
+
     }
     .section2_box {
-        margin-left: -43px;
+        display: none;
+        margin-left: -7.3vw;
+        margin-right: 7.3vw;
         padding-top: 2px;
+        transition: opacity 500ms;
+    }
+    .section2_box1, .section2_radiobox {
+        display: block;
     }
     .section2_box > p {
-        font-size: 6.545px;
-        padding: 21px 0 0 3px;
-        letter-spacing: -0.3pt;
-        width: 100px;
+        font-size: 4.2vw;
+        padding-top: 2vw;
+        margin-left: -10vw;
+        margin-right: 10vw;
+        width: 50vw;
+    }
+    
+    .section2_radiobox {
+        padding-top: 13px;
     }
 
     .section2_box4, .section2_box2, .section2_box3, .section2_box5 {
@@ -24,4 +38,64 @@
     }
 }
 
+@media screen and (min-width: 400px)  and (max-width: 575px) {
+    .section2 {
+        height: 55vw;
+    }
+    .section2_box  > img {
+        width: 28vw;
+    }
+}
+@media screen and (min-width: 576px)  and (max-width: 767px) {
+    .section2_box  > img {
+        width: 160px;
+        padding-left: 4vw;
+    }
+ .section2_box > p {
+        width: 40vw;
+        font-size: 20px;
+        margin-left: -4vw;
+        margin-right: 4vw;
+    }
+    .section2_box {
+        margin-left: -8vw;
+        margin-right: 8vw;
+    }
 
+
+}
+
+@media screen and (min-width: 480px)  and (max-width: 767px) {
+    .section2 {
+        height: 300px;
+    }
+    .section2_box2, .section2_box3, .section2_box4, .section2_box5  {
+        display: none;
+        opacity: 0;
+        order: 10;
+        visibility: ;
+    }
+    .section2_flex {
+        height: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section2_box1 {
+        display: block;    
+        opacity: 1;
+        order: 0;    
+    }
+
+    .section2_box > p {
+        text-align: center;
+    }
+    .section2_box {
+        padding-top: 2px;
+        margin-left: -6vw;
+        margin-right: 6vw;
+    }
+    .section2_radiobox {
+        margin-top: 4vw;
+    }
+
+}
