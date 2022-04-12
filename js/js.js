@@ -141,6 +141,5 @@ function section2_show(box, i) {
 		} 
 	}
 
-	console.log ("................................");
 }
 
