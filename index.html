@@ -34,7 +34,7 @@
 
 </head> 
 
-<body> 
+<body onresize="checkResize()"> 
    <div class="container">
        <div class="section1 style_section"> 
             <img src="Landing-assets/D_Screen_1_Img1.png" class="section1_img">
@@ -72,7 +72,7 @@
                   <p class="section2_p">Печать рецептов</p>
                </div>
             </div>
-            <div class="section2_radiobox">
+            <div class="section2_radiobox" id = "section2_radiobox">
                <input class="section2_radio" id="section2_radio1" type="radio" name="section2_select" value="1" checked onChange="slider(this)"></input>
                <input class="section2_radio" id="section2_radio2" type="radio" name="section2_select" value="2" onChange="slider(this)"></input>
                <input class="section2_radio" id="section2_radio3" type="radio" name="section2_select" value="3" onChange="slider(this)"></input>
