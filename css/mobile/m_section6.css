@@ -79,12 +79,16 @@
         margin-left: 14px;
     }
     .section6_btn_msg{
-        margin-top : -56px;
+        height: 60px;
+        padding-top: 5px;
+        margin-top : -20px;
     }
     .section6_box2 > p {
         margin-left: -6px;
     }
-
+    .section6_box2_email {
+        margin-top: 20px;
+    }
 
 }
 
