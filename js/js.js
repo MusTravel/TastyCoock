@@ -124,21 +124,19 @@ function section2_show(box, i) {
    		document.getElementById(selectBox).style.order = n;
 		document.getElementById(selectBox).style.display='block';
 	   	document.getElementById(selectBox).style.opacity='1';
-   		console.log (n + " - показываем бокс - " + selectBox);
 	} 
 	if ((n<5) && (box=="section2_box")) {
 	   	for (n; n<=5; n++) {
 	   		selectBox = box.concat(n);
 	   		console.log (n + " - скрываем бокс - " + selectBox);
-	   		document.getElementById(selectBox).style.order = i;
+	   		document.getElementById(selectBox).style.order = n;
 			document.getElementById(selectBox).style.display='none';
 		} 
 	}
 	if ((n<3) && ((box=="section3_box") || (box=="section5_box"))){
 	   	for (n; n<=3; n++) {
 	   		selectBox = box.concat(n);
-	   		console.log (n + " - скрываем бокс - " + selectBox);
-	   		document.getElementById(selectBox).style.order = i;
+	   		document.getElementById(selectBox).style.order = n;
 			document.getElementById(selectBox).style.display='none';
 		} 
 	}
