@@ -6,6 +6,8 @@
 	.section3_flex {
 	    justify-content: center;
 	    align-items: baseline;		
+		width: 90vw;
+
 	}
 	.section3_flex, .section3_box {
 		height: 30vw;
@@ -14,15 +16,30 @@
 		margin: 0;
 		padding: 0;
 	}
+	.section3_flex {
+		margin: 0 auto;
+	}
 	.section3_h1 {
 		padding: 0.5vw 0px 4vw 0px;
 	}
-	.section3_box {
-		width: 26vw;
+	.section3_box1, .section3_box2, .section3_box3 {
+		display: block;
+	} 
+	.section3_radiobox {  
+		display: none;	    
+	}
+	.section3_box1, .section3_box3 {
+		width: 31.2%;
 	}
 	.section3_box2 {
-		width: 32vw;
-		padding: 0 2vw;
+		width: 37.6%;
+	}
+
+	.section3_box > img {
+		width: 100%;
+	}
+	.section3_box2 {
+		padding: 0 2%;
 	}
 	.section3_box1 {
 		margin-top: 2vw;		
@@ -62,15 +79,12 @@
 	.section3_box3:hover ~ .section3_ellipse {
 	    left: calc(50vw + 25vw);
 	}
-	.section3_radiobox {  
-		display: none;	    
-	}
 
 }
 
 @media screen and (max-width: 1023px)  {
 	.section3 {
-		height: 600px;
+		height: 630px;
 		text-align: center;
 	}
 	.section3_h1 {
@@ -83,7 +97,7 @@
         margin: 0 auto;
     }
     .section3_radiobox {
-    	margin: -20px auto 0 auto;
+    	margin: 20px auto 0 auto;
     	height: 50px;
     }
 	.section3_radio {
@@ -92,7 +106,7 @@
 	}
 
     .section3_box {
-        width: 400px;
+        width: 380px;
 		margin: 0 auto;
 		display: none;	    
 		transition: opacity 700ms;
