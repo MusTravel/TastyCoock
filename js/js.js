@@ -85,3 +85,64 @@ function showSlider(selectBox, ord) {
 	setTimeout(() => {let msg = "1"; document.getElementById(currentBox).style.opacity = msg;}, ord*150);
 
 }
+
+/* Контроль размера окна*/
+
+function checkResize() {
+	const 	screenWidth = window.innerWidth;	
+	let 	selectBox = "section2_box", n, i;
+
+	if (screenWidth<768) {
+		document.getElementById("section2_radiobox").style.display='block';
+		section2_show("section2_box",1);
+	} 	else {
+		if ((screenWidth>=768) && (screenWidth<1024)) {
+			document.getElementById("section2_radiobox").style.display='block';
+			section2_show("section3_box", 1);
+			section2_show("section2_box", 3);
+			section2_show("section5_box", 1);
+		}	else {
+			if (screenWidth>=1024) {
+				document.getElementById("section2_radiobox").style.display='none';
+				section2_show("section2_box",5);
+				section2_show("section3_box",3);
+				section2_show("section5_box",3);
+			}
+		}
+	} 
+
+}
+
+
+
+/* Показать 1-5 боксов, скрыть 2-4 бокса */
+
+function section2_show(box, i) {
+	let n=1, selectBox;
+   	for (n; n<=i; n++) {
+   		selectBox = box.concat(n)
+   		document.getElementById(selectBox).style.order = n;
+		document.getElementById(selectBox).style.display='block';
+	   	document.getElementById(selectBox).style.opacity='1';
+   		console.log (n + " - показываем бокс - " + selectBox);
+	} 
+	if ((n<5) && (box=="section2_box")) {
+	   	for (n; n<=5; n++) {
+	   		selectBox = box.concat(n);
+	   		console.log (n + " - скрываем бокс - " + selectBox);
+	   		document.getElementById(selectBox).style.order = i;
+			document.getElementById(selectBox).style.display='none';
+		} 
+	}
+	if ((n<3) && ((box=="section3_box") || (box=="section5_box"))){
+	   	for (n; n<=3; n++) {
+	   		selectBox = box.concat(n);
+	   		console.log (n + " - скрываем бокс - " + selectBox);
+	   		document.getElementById(selectBox).style.order = i;
+			document.getElementById(selectBox).style.display='none';
+		} 
+	}
+
+	console.log ("................................");
+}
+
